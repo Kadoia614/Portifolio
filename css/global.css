@@ -1,0 +1,56 @@
+:root {
+  --primary-text-color: #0F172A;
+  --secondary-text-color: #F8FAFC;
+  --terciary-text-color: #334155;
+
+  --primary-bg-color: #0F172A;
+  --secondary-bg-color: #F2F6FF;
+  --terciary-bg-color: #1F4FD8;
+
+  --accent-color: #1F4FD8;
+
+  --primary-details-color: #1F4FD8;
+  --secondary-details-color: #5B8CFF;
+}
+
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  background: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}

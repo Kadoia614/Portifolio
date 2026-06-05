@@ -1,0 +1,40 @@
+.header {
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: var(--primary-bg-color);
+  color: var(--secondary-text-color);
+  z-index: 99;
+}
+
+nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-menu a {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  padding: 10px 20px;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .header a {
+    font-size: 0.8rem;
+  padding: 10px 10px;
+  }
+}
